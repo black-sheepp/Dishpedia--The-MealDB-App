@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif !important;
+}
+
+.input {
+    width: 25%;
+    padding: 8px;
+    padding-left: 30px;
+    border: 3px solid black;
+    border-radius: 20px 0 0 20px;
+}
+
+.input-submit {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+
+}
+
+.input-label {
+    display: flex;
+}
+
+.meal-container {
+    margin: 0;
+}
+
+.meal-image {
+    height: 180px;
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid black;
+    object-fit: cover;
+}
+
+.meal-info {
+    padding: 0 20px;
+    font-size: large;
+}
+
+.meal-title-likes {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.meal-title-likes>p {
+    font-size: large;
+    font-weight: bold;
+}
+
+.dish-name-type {
+    display: flex;
+    color: #abff4f;
+}
+
+.meal-full-details {
+    height: 80%;
+    border: 4px solid black;
+    border-radius: 25px;
+    padding: 0 50px;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 14px 15px 100px rgba(0,0,0,0.1);    
+    width: 85%;
+    position: fixed;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.ingredients-badge{
+    margin-right: 10px !important;
+}
+
+.add-to-fav{
+    border: none;
+    border-radius: 20px;
+    background-color: #ef233c;
+    color: black !important;
+    width: 130px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.meal-header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-x {
+    border: none;
+    background: black;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+
+.meal-cover-instruction {
+    display: flex;
+    gap: 40px;
+}
+
+.meal-image-large {
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.meal-instructions {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.yt-btn {
+    background-color: red;
+    color: white;
+    width: 130px;
+    border: none;
+    font-size: x-large;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.button {
+    margin-top: 15px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica, "sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #CD201F;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.button:hover {
+    background: #CD201F;
+}
+
+.button>svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+}
+
+.button:hover svg {
+    transform: translateX(5px);
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.text-gap {
+    width: 120px;
+    color: grey;
+}
+
+.recipe-btn{
+    color: #fca311;
+    font-size: smaller;
+}
+
+/* fav section */
+.fav-heading{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 28px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.fav-box{
+    padding-top: 12px;
+    border-radius: 20px;
+    width: 23.39%;
+    height: 300px;
+    margin: 10px;
+    margin-bottom: 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: white;
+}
+
+.fav-meal-img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.fav-meal-details{
+    line-height: 0.5rem;
+    padding: 10px 20px 0 15px ;
+}
+.fav-meal-name{
+    font-size: 22px;
+    color: #abff4f;
+}
+
+.fav-meal-type{
+    color: white;
+}
+
+.fav-meal-area{
+    color: #fca311;
+}
