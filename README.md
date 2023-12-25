@@ -1,5 +1,4 @@
 # Dishpedia--The-MealDB-App
-Sure, let's break down the technologies used and the features of your MealDB app, focusing on the dynamic and single-page app aspects:
 
 ### Technologies Used:
 
