@@ -56,7 +56,7 @@
    - **Description:** Bootstrap is utilized for creating a responsive design that adapts to different screen sizes and devices.
    - **Benefits:** Ensures a consistent and visually appealing layout across various devices.
 
-In summary, your MealDB app leverages a combination of HTML, CSS, and JavaScript to create a dynamic and single-page application with features such as real-time data fetching, user interactivity, favorites management, and responsive design. This results in an engaging and efficient user experience for exploring and discovering meals.
+In summary, MealDB app leverages a combination of HTML, CSS, and JavaScript to create a dynamic and single-page application with features such as real-time data fetching, user interactivity, favorites management, and responsive design. This results in an engaging and efficient user experience for exploring and discovering meals.
 
 <img width="1680" alt="Screenshot 2023-10-09 at 9 38 36 PM" src="https://github.com/black-sheepp/Dishpedia--The-MealDB-App/assets/53144060/b6cacc49-b125-4cd0-bca3-7b32e056e4d2">
 <img width="1680" alt="Screenshot 2023-10-09 at 9 38 50 PM" src="https://github.com/black-sheepp/Dishpedia--The-MealDB-App/assets/53144060/b20757e2-68d7-4a14-b3cc-9e76aadc9827">
